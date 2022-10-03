@@ -54,11 +54,9 @@ app.post("/", function (req, res) {
 });
 
 app.listen(process.env.PORT || 4000, function () {
-  console.log("Server running on port 4000");
+  console.log("Server running on Heroku or port 4000");
 });
 
 // Mailchimp
 // API Key: 60f8d0f2351b92301b045aa137d11fb3-us18
 // Audience ID: 08ff8fb7d2
-
-//Comentario de prueba
